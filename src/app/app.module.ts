@@ -10,7 +10,8 @@ import { IndicadoresComponent } from './indicadores/indicadores.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgIf } from '@angular/common';
 import { CarouselModule } from 'primeng/carousel';
-
+import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,15 +21,16 @@ import { CarouselModule } from 'primeng/carousel';
     FooterComponent,
     IndicadoresComponent,
     AccordionComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     NgbCarouselModule,
     NgIf,
     CarouselModule,
-   
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

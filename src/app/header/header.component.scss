@@ -1,0 +1,20 @@
+* {
+  height: 50px;
+  background: #0d0d0dfa;
+  color: white;
+  margin-top: px;
+}
+
+a {
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: rgb(155, 150, 150);
+}
+
+.nav-link.active {
+  color: white;
+}
